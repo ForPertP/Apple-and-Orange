@@ -3,7 +3,7 @@ void countApplesAndOranges(int s, int t, int a, int b, vector<int> apples, vecto
     int apple_count = 0;
     int orange_count = 0;
     
-    for_each (apples.begin(), apples.end(), 
+    for_each (apples.cbegin(), apples.cend(), 
         [=,&apple_count](auto n)
         {
             int gap = n + a;
@@ -14,7 +14,7 @@ void countApplesAndOranges(int s, int t, int a, int b, vector<int> apples, vecto
         }
     );
     
-    for_each (oranges.begin(), oranges.end(), 
+    for_each (oranges.cbegin(), oranges.cend(), 
         [=,&orange_count](auto n)
         {
             int gap = n + b;
