@@ -57,7 +57,6 @@ int main()
     vector<string> first_multiple_input = split(rtrim(first_multiple_input_temp));
 
     int s = stoi(first_multiple_input[0]);
-
     int t = stoi(first_multiple_input[1]);
 
     string second_multiple_input_temp;
@@ -66,7 +65,6 @@ int main()
     vector<string> second_multiple_input = split(rtrim(second_multiple_input_temp));
 
     int a = stoi(second_multiple_input[0]);
-
     int b = stoi(second_multiple_input[1]);
 
     string third_multiple_input_temp;
